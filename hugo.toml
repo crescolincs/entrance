@@ -1,0 +1,6 @@
+baseURL = 'http://investlincolnshire.co.uk/'
+languageCode = 'en-uk'
+title = 'Invest in the UK, Invest in Lincolnshire'
+
+#prod
+theme = "github.com/crescolincs/lincs-theme/"
