@@ -3,7 +3,7 @@ languageCode = 'en-uk'
 title = 'Invest in the UK, Invest in Lincolnshire'
 
 
-[module]
-  [[module.imports]]
-    path = "github.com/crescolincs/lincs-theme"
+#[module]
+#  [[module.imports]]
+#    path = "github.com/crescolincs/lincs-theme"
 
