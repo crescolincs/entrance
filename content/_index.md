@@ -38,7 +38,8 @@ support:
      description: 'for business investment'    
   cta:
     title: 'Find out more'
-    blurb: "about Invest Lincolnshire's support services for investing businesses"                 
+    blurb: "about Invest Lincolnshire's support services for investing businesses" 
+    destination: "#"                
 growthsectors:
   display: true
   preheading: "Lincolnshire’s Investment Opportunities"
