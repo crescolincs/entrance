@@ -39,7 +39,7 @@ support:
   cta:
     title: 'Find out more'
     blurb: "about Invest Lincolnshire's support services for investing businesses"                 
-growth-sectors:
+growthsectors:
   display: true
   preheading: "Lincolnshire’s Investment Opportunities"
   heading: "Industrial & Technology Growth Sectors"
