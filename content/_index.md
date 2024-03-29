@@ -54,7 +54,7 @@ growthsectors:
    - image: "agrifood.jpg"
      sectorname: "Agrifood"
      text: "At the heart of the UK’s agrifood sector and home to Europe’s largest agrifood technology, automation and robotics industry cluster."
-     colour: "clr-argifood"
+     colour: "clr-agrifood"
      destination: "#"
    - image: "defence-security.jpg"
      sectorname: "Defence & Security"
