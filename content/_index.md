@@ -1,6 +1,6 @@
 ---
 title: 'Invest Lincolnshire'
-socialImage: 'https://images.weserv.nl/?url=https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/5-shapes-with-grad.png'
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/5-shapes-with-grad.png'
 seoDescription: >-
               'Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.'''
 hero:
@@ -8,7 +8,7 @@ hero:
   heading: 'Invest in the UK. Invest in Lincolnshire'
   blurb: >-
          'Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.'
-  heroImg: 'https://images.weserv.nl/?url=https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/5-shapes-with-grad.png'
+  heroImg: 'https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/5-shapes-with-grad.png'
 
 support:
   display: true
@@ -76,24 +76,27 @@ growthsectors:
      text: "Advanced, cross-sector AI/intelligent robotics capabilities, transforming industrial productivity through digitalisation and automation."
      colour: "clr-irobotics"
      destination: "#"
-visitor-living:
+othersectors:
   display: true
   sectors:
   - overheading: "Visitor Economy"
     image: "visitor-economy.jpg"
     heading: "Tourism and Leisure"
     text: "Greater Lincolnshire is home to a thriving tourism sector with significant growth potential."
+    destination: "#"
   - overheading: "Living & Working"
     image: "work-live-enjoy.jpg"
     heading: "A Place to Live, Work & Enjoy"
     text: "Vitae ultricies Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id."
-location-map:
+    destination: "#"
+locationmap:
   display: true
   heading: "Lincolnshire's Location Benefits"
   text: "Lincolnshire’s strategic location in England’s East Midlands, enables fast, efficient access to UK and international markets by road, rail, air and sea."
   image: "lincs-uk-map.png"
   ctaheading: "Find out more"
   ctatext: "about Lincolnshire’s location and connectivity advantages"
+  destination: "#"
 ---
 
 
