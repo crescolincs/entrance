@@ -1,3 +1,5 @@
-/*
-  X-Robots-Tag: allhttps://myproject.pages.dev/*
-  X-Robots-Tag: noindex
+https://:project.pages.dev/*
+  X-Robots-Tag: all
+
+https://*.investlincolnshire.co.uk/*
+  X-Robots-Tag: all
