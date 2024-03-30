@@ -1,5 +1,7 @@
 /*
   X-Robots-Tag: all
+  Content-Security-Policy: script-src 'self'
 
 https://*.investlincolnshire.co.uk/*
   X-Robots-Tag: all
+  Content-Security-Policy: script-src 'self'
