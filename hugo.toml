@@ -7,4 +7,4 @@ title = 'Invest in the UK, Invest in Lincolnshire'
   [[module.imports]]
     path = "github.com/crescolincs/lincs-theme"
 
-#Update hugo modules (in our case the theme)$> hugo mod get -u 
+#Update hugo modules (in our case the theme)$> hugo mod get -u
