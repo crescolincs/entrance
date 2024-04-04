@@ -1,7 +1,11 @@
-baseURL = 'http://investlincolnshire.co.uk/'
+baseURL = 'https://investlincolnshire.co.uk/'
+
 languageCode = 'en-uk'
 title = 'Invest in the UK, Invest in Lincolnshire'
 
+[params]
+  contactdomain = 'https://investlincolnshire.co.uk/'
+  imagedomain = 'https://res.cloudinary.com/lincs/image/upload/q_auto,f_auto/'
 
 [module]
   [[module.imports]]
