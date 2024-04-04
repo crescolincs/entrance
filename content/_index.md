@@ -5,14 +5,14 @@ seoDescription: >-
               Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
 prefooterimage: entrance-pre-footer-graphic.jpg              
 
-entrance-hero:
+entrancehero:
   display: true
   heading: 'Invest in the UK. Invest in Lincolnshire'
   blurb: >-
          Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
   heroImg: '5-shapes-with-grad.png'
 
-entrance-support:
+entrancesupport:
   display: true
   heading: 'Support for Businesses Investing in the UK'
   subheading: 'Invest Lincolnshire’s expert support for businesses investing in Lincolnshire includes:'
@@ -42,7 +42,7 @@ entrance-support:
     title: 'Find out more'
     blurb: "about Invest Lincolnshire's support services for investing businesses" 
     destination: "#"                
-entrance-growthsectors:
+entrancegrowthsectors:
   display: true
   preheading: "Lincolnshire’s Investment Opportunities"
   heading: "Industrial & Technology Growth Sectors"
@@ -78,7 +78,7 @@ entrance-growthsectors:
      text: "Advanced, cross-sector AI/intelligent robotics capabilities, transforming industrial productivity through digitalisation and automation."
      colour: "clr-irobotics"
      destination: "#"
-entrance-othersectors:
+entranceothersectors:
   display: true
   sectors:
   - overheading: "Visitor Economy"
@@ -91,7 +91,7 @@ entrance-othersectors:
     heading: "A Place to Live, Work & Enjoy"
     text: "Vitae ultricies Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id."
     destination: "#"
-entrance-locationmap:
+entrancelocationmap:
   display: true
   heading: "Lincolnshire's Location Benefits"
   text: "Lincolnshire’s strategic location in England’s East Midlands, enables fast, efficient access to UK and international markets by road, rail, air and sea."
