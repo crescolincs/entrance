@@ -3,7 +3,7 @@ title: 'Invest Lincolnshire'
 socialImage: '5-shapes-with-grad.png'
 seoDescription: >-
               Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
-prefooterimage: entrance-pre-footer-graphic.jpg              
+prefooterimage: entrance-pre-footer-graphic.png              
 
 hero:
   display: true
