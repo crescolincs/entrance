@@ -70,9 +70,9 @@ sectorCTA:
   image: brochure-form.png
   heading: Get the data on Lincolnshire as a location for your business
   lead: >-
-     Lincolnshire’s Visitor Economy sector Business Location Guide provides essential information and data for companies researching and evaluation Lincolnshire as a potential investment location, including:                                       
+     Lincolnshire’s sector-focused Business Location Guides provide essential information and data for companies researching and evaluating Lincolnshire as a potential investment location. Insights include:                                       
   brochurecontents:
-    - highlight: Sector MArket Opportunities    
+    - highlight: The market opportunity
     - highlight: Industry clusters
     - highlight: Research & technology
     - highlight: Workforce, education & skills
@@ -80,8 +80,7 @@ sectorCTA:
     - highlight: UK and global market access
     - highlight: Location & sector data sets
     - highlight: Support for investing businesses
-    - highlight: Living and Working in Lincolnshire
   contentscolour: 'text-white'
-  footerimg: entrance-pre-footer-graphic.png
+  footerimg: red-half-grad.png
 layout: location-and-connectivity
 ---
