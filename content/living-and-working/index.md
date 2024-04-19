@@ -143,7 +143,7 @@ offerfeatures:
    - heading: 'Lincolnshire - A Well-connected Region'
      image: place-to-live-8.jpg
      lead: >-
-           'Lincolnshire’s residents benefit from excellent transport connections – locally, regionally, nationally and internationally, and via multiple modes of transport.'
+           Lincolnshire’s residents benefit from excellent transport connections – locally, regionally, nationally and internationally, and via multiple modes of transport.
      body: >-
            - Lincolnshire’s high-quality local transport services include on-demand buses, an excellent rail network, and investments in cycle networks and walkable neighbourhoods.
 
