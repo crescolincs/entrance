@@ -2,14 +2,14 @@
 title: 'Invest Lincolnshire'
 socialImage: '5-shapes-with-grad.png'
 seoDescription: >-
-              Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
+              Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
 prefooterimage: entrance-pre-footer-graphic.png              
 
 hero:
   display: true
   heading: 'Invest in the UK. Invest in Lincolnshire'
   blurb: >-
-         Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
+         Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
   heroImg: '5-shapes-with-grad.png'
 
 entrancesupport:
@@ -50,12 +50,12 @@ entrancegrowthsectors:
   sectors:
    - image: "adv-eng-manu.jpg"
      sectorname: "Advanced Engineering & Manufacturing"
-     text: "A leading industry cluster with cutting-edge innovation in Industry 4.0 specialisations including AI, big data, robotics and automation."
+     text: "A UK-leading industry cluster offering cutting-edge innovation in Industry 4.0 specialisations including AI, big data, robotics and automation."
      colour: "clr-aem"
      destination: "#"
    - image: "agrifood.jpg"
      sectorname: "Agrifood"
-     text: "At the heart of the UK’s agrifood sector and home to Europe’s largest agrifood technology, automation and robotics industry cluster."
+     text: "At the heart of UK agrifood, with growth opportunities in food production, manufacturing, logistics and automation technologies."
      colour: "clr-agrifood"
      destination: "#"
    - image: "defence-security.jpg"
@@ -65,17 +65,17 @@ entrancegrowthsectors:
      destination: "#"
    - image: "logistics.jpg"
      sectorname: "Logistics"
-     text: "A major logistics centre with the UK’s 2nd highest concentration of logistics businesses and the country’s 2nd largest ports complex (by tonnage)."
+     text: "Lincolnshire's strategic logistics hubs offer industrial growth opportunities and advanced automation technology solutions."
      colour: "clr-logistics"
      destination: "#"
    - image: "low-carbon.jpg"
      sectorname: "Low Carbon Energy & Industry"
-     text: "At the forefront of the UK’s transition to Net Zero and a pioneering testbed for clean energy generation, storage and distribution."
+     text: "Leading the UK's Green Industrial Revolution, with business growth opportunities across a range of energy and industrial sectors."
      colour: "clr-lowcarbon"
      destination: "#"
    - image: "robotics.jpg"
      sectorname: "Intelligent Robotics"
-     text: "Advanced, cross-sector AI/intelligent robotics capabilities, transforming industrial productivity through digitalisation and automation."
+     text: "Advanced, cross-sector AI and intelligent robotics robotics capabilities, transforming industrial productivity through digitalisation and automation."
      colour: "clr-irobotics"
      destination: "#"
 entranceothersectors:
@@ -84,17 +84,17 @@ entranceothersectors:
   - overheading: "Visitor Economy"
     image: "visitor-economy.jpg"
     heading: "Tourism and Leisure"
-    text: "Greater Lincolnshire is home to a thriving tourism sector with significant growth potential."
+    text: "Lincolnshire's thriving visitor economy presents a range of opportunities for business investment and growth."
     destination: "#"
   - overheading: "Living & Working"
     image: "work-live-enjoy.jpg"
     heading: "A Place to Live, Work & Enjoy"
-    text: "Vitae ultricies Leo integer malesuada nunc vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est velit egestas dui id."
+    text: "Lincolnshire is a beautiful and affordable place to live, work, learn and enjoy a superb lifestyle."
     destination: "#"
 entrancelocationmap:
   display: true
   heading: "Lincolnshire's Location Benefits"
-  text: "Lincolnshire’s strategic location in England’s East Midlands, enables fast, efficient access to UK and international markets by road, rail, air and sea."
+  text: "Lincolnshire’s strategic location in England’s East Midlands enables fast, efficient access to UK and international markets by road, rail, air and sea."
   image: https://res.cloudinary.com/lincs/image/upload/q_auto/w_535,ar_16:9,c_fill,g_auto,e_sharpen/lincs-uk-map.svg
   ctaheading: "Find out more"
   ctatext: "about Lincolnshire’s location and connectivity advantages"
