@@ -57,7 +57,7 @@ export async function onRequestPost(context) {
           }
           ],
           "subject": "Invest Lincolnshire Enquiry from "+formreceived.sender,
-          "text": bodyofemail,//"url.pathname "+requrl+" the request method was"+request.method+" you submitted the following email address "+formReceived.fields.email+" hidden name of the form "+formReceived.fields.sender,
+          "text": bodyofemail, //"url.pathname "+requrl+" the request method was"+request.method+" you submitted the following email address "+formReceived.fields.email+" hidden name of the form "+formReceived.fields.sender,
           "html": bodyofemail.replaceAll('\n','<br>') //"url.pathname "+requrl+" the request method was"+request.method+" you submitted the following email address "+formReceived.fields.email+" hidden name of the form "+formReceived.fields.sender
         }
         const result = await fetch(`https://api.mailersend.com/v1/email`, {
