@@ -37,7 +37,7 @@ export async function onRequestPost(context) {
         } else {
           // Perhaps some other type of data was submitted in the form
           // like an image, or some other binary data.
-          return "a file";
+          return "not a form";
         }
       }
         // Send email to team
