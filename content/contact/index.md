@@ -2,9 +2,9 @@
 email: info@investlincolnshire.co.uk
 organisation: Invest Lincolnshire
 address1: Lincolnshire County Council
-address2: Council Offices
-address3: Newland
+address2: Lancaster House
+address3: 36 Orchard Street
 town: Lincoln
-postcode: L4 5PO
+postcode: LN1 1XX
 layout: contact
 ---
