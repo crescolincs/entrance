@@ -1,4 +1,3 @@
-
 languageCode = 'en-uk'
 title = 'Invest in the UK, Invest in Lincolnshire'
 
@@ -11,8 +10,21 @@ title = 'Invest in the UK, Invest in Lincolnshire'
   [[module.imports]]
     path = "github.com/crescolincs/lincs-theme"
 
-[[module.imports.mounts]]
-    source = 'static/functions/processform'
-    target = 'static/functions/shakeyform'
-
+  #[[module.imports.mounts]]
+  #  source = 'archetypes'
+  #  target = 'archetypes'
+  #  source = 'assets'
+  #  target = 'assets'    
+  #  source = 'data'
+  #  target = 'data'
+  #  source = 'layouts'
+  #  target = 'layouts'
+  #  source = 'static/css'
+  #  target = 'static/css'
+  #  source = 'static/functions'
+  #  target = 'static/functions'  
+  #  source = 'static/js'
+  #  target = 'static/js'
+  #  source = 'static/webfonts'
+  #  target = 'static/webfonts'    
 #Update hugo modules (in our case the theme)$> hugo mod get -u
