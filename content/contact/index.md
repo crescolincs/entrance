@@ -1,4 +1,7 @@
 ---
+heading: Get in Touch
+message: >-
+         Nick to agree content with Invest Lincolnshire
 email: info@investlincolnshire.co.uk
 organisation: Invest Lincolnshire
 address1: Lincolnshire County Council
