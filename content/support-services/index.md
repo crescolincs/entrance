@@ -17,13 +17,13 @@ hero:
 offerfeatures:
   display: true
   features:
-   - heading: Services for investing businesses
+   - heading: Support for investing businesses
      image: support-services.jpg
      lead: >-
            Invest Lincolnshire is the official inward investment agency for Lincolnshire. Working with our partner organisations, including local authorities, education providers and businesses, we provide dedicated support to ensure a ‘soft landing’ for companies investing in Lincolnshire.
      body: >-
 
-     ctatext: to find out more about Invest Lincolnshire's Support Services   
+     ctatext: about Invest Lincolnshire's Support Services   
 
 supportservices:
   display: true
@@ -32,7 +32,7 @@ supportservices:
   image: support-services.jpg
   lead: >-
       Invest Lincolnshire is the official inward investment agency for Lincolnshire. Working with our partner organisations, including local authorities, education providers and businesses, we provide dedicated support to ensure a ‘soft landing’ for companies investing in Lincolnshire.
-  ctatext: to find out how we can support your business relocation or expansion project.
+  ctatext: to find out how we can support your business relocation or expansion project
   services:
     - service: Support finding the right site or property
     - service: Planning application support and guidance
