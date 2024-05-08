@@ -190,6 +190,14 @@ sectorCTA:
     - highlight: Transport connectivity
     - highlight: Sustainability commitments
   contentscolour: 'text-white'
+  formhandler: brochurerequest
+  hiddenformfields:
+     - field: brochure
+       value: live-work
+     - field: page
+       value: living-and-working
+     - field: cc
+       value: dklongley@clarity-strategies  
   footerimg: green-half-grad.png 
 layout: living-and-working
 ---

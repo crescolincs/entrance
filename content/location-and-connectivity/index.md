@@ -81,6 +81,14 @@ sectorCTA:
     - highlight: Location & sector data sets
     - highlight: Support for investing businesses
   contentscolour: 'text-white'
+  formhandler: multibrochurestep1
+  hiddenformfields:
+     - field: brochure
+       value: multiple  
+     - field: page
+       value: location-and-connectivity
+     - field: cc
+       value: dklongley@clarity-strategies   
   footerimg: red-half-grad.png
 layout: location-and-connectivity
 ---

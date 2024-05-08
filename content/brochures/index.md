@@ -17,42 +17,42 @@ brochurechoice:
     - image: aem-brochure-cover.png
       title: 'Advanced Engineering & Manufacturing'
       clr: 'bg-invest-blue'
-      url: invest-lincs-aem-brochure.pdf
+      url: invest-lincs-aem
     - image: logistics-brochure-cover.jpg
       title: 'Logistics' 
       clr: 'bg-yellow'      
-      url: invest-lincs-logistics-brochure.pdf
+      url: invest-lincs-logistics
     - image: lce-brochure-cover.jpg
       title: 'Low carbon energy & industry'
       clr: 'bg-teal'      
-      url: invest-lincs-low-carbon-energy-brochure.pdf
+      url: invest-lincs-low-carbon-energy
     - image: defence-security-brochure-cover.jpg
       title: 'Defence & Security'
       clr: 'bg-red'      
-      url: invest-lincs-defence-security-brochure.pdf
+      url: invest-lincs-defence-security
     - image: visitor-economy-brochure-cover.jpg
       title: 'Visitor Economy'
       clr: 'bg-invest-blue'      
-      url: invest-lincs-visitor-economy-brochure.pdf
+      url: invest-lincs-visitor-economy
     - image: live-work-brochure-cover.jpg
       title: 'A place to live, work & enjoy'
       clr: 'bg-green'      
-      url: invest-lincs-live-work-brochure.pdf
+      url: invest-lincs-live-work
     - image: agrifood-brochure-cover.jpg
       title: Agrifood
       clr: 'bg-green'
-      url: invest-lincs-agrifood-brochure.pdf        
+      url: invest-lincs-agrifood        
     - image: agrifood-logistics-brochure-cover.jpg
       title: 'Agrifood: Cold Chain & Logistics'
       clr: 'bg-pink'
-      url: invest-lincs-cold-chain.pdf   
+      url: invest-lincs-cold-chain   
     - image: agrifood-produce-brochure-cover.jpg
       title: 'Agrifood: Fresh Produce & Controlled Environment Agriculture'
       clr: 'bg-lime-green'
-      url: invest-lincs-fresh-produce.pdf
+      url: invest-lincs-fresh-produce
     - image: agrifood-seafood-brochure-cover.jpg
       title: 'Agrifood: Seafood Processing & Aquaculture'
       clr: 'bg-sky-blue'
-      url:  invest-lincs-seafood.pdf       
+      url:  invest-lincs-seafood       
 layout: brochure-parade                                         
 ---
