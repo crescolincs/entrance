@@ -95,7 +95,7 @@ entrancelocationmap:
   display: true
   heading: "Lincolnshire's Location Benefits"
   text: "Lincolnshire’s strategic location in England’s East Midlands enables fast, efficient access to UK and international markets by road, rail, air and sea."
-  image: https://res.cloudinary.com/lincs/image/upload/q_auto/w_535,ar_16:9,c_fill,g_auto,e_sharpen/lincs-uk-map.svg
+  image: https://res.cloudinary.com/lincs/image/upload/lincs-uk-map.png
   ctaheading: "Find out more"
   ctatext: "about Lincolnshire’s location and connectivity advantages"
   destination: "https://investlincolnshire.co.uk/location-and-connectivity"
