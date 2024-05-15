@@ -2,4 +2,4 @@ module github.com/crescolincs/entrance
 
 go 1.21.1
 
-require github.com/crescolincs/lincs-theme v0.0.0-20240514153754-e80c0ec84c18 // indirect
+require github.com/crescolincs/lincs-theme v0.0.0-20240515111009-a451a017f7a4 // indirect
