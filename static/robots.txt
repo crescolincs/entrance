@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /webfonts/
+Sitemap: https://investlincolnshire.co.uk/sitemap1.xml
