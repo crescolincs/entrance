@@ -60,7 +60,7 @@ entrancegrowthsectors:
      destination: "https://agrifood.investlincolnshire.co.uk/"
    - image: "defence-security.jpg"
      sectorname: "Defence & Security"
-     text: "The location of choice for defence and security digital and information technology innovation, co-located with key RAF intelligence capabilities"
+     text: "The location of choice for defence and security digital and information technology innovation, co-located with key RAF intelligence capabilities."
      colour: "clr-defence"
      destination: "https://defence-security.investlincolnshire.co.uk/"
    - image: "logistics.jpg"

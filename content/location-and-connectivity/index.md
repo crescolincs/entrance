@@ -17,7 +17,7 @@ hero:
 
 connectivitymap:
   display: true
-  heading: "Map of Greater Lincolnshire's connectivity"
+  heading: "Map of Lincolnshire's connectivity"
   connectivitymap: 'connect-map.png'
   keyheading: Key
   keyitems:
@@ -26,16 +26,16 @@ connectivitymap:
    - icon: 'port-icon.svg'
      title: 'Ports'
    - icon: 'green-icon.svg'
-     title: 'Greater Lincolnshire'
+     title: 'Lincolnshire'
 hgvdrivetimesmap:
   display: true
-  heading: "Map of Greater Lincolnshire's connectivity"
+  heading: "Map of Lincolnshire's connectivity"
   drivetimesmap: 'uk-map.png'
   keyheading: HGV Drive Times
   keyheadingextra: From Lincoln
   keyitems:
    - icon: 'red-icon.svg'
-     title: 'Greater Lincolnshire'
+     title: 'Lincolnshire'
    - icon: 'pink-icon.svg'
      title: '3 hour HGV drive time'
    - icon: 'light-blue-icon.svg'
