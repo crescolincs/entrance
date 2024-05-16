@@ -8,7 +8,7 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 
 ### **1. ABOUT US**
 
--   The Invest Lincolnshire is known as the "Controller" of the personal data you provide to us.
+-   Invest Lincolnshire is known as the "Controller" of the personal data you provide to us.
 
 ### **2. WHY DO WE COLLECT YOUR PERSONAL DATA?**
 
@@ -53,7 +53,7 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 
 ### **6. HOW LONG DO WE KEEP YOUR DATA FOR?**
 
-6.1. We are required to retain your personal data only for as long as is necessary, after which it will be securely destroyed by Invest Lincolnshire LEP or the specific requirements of the organisation who has shared the data with us.
+6.1. We are required to retain your personal data only for as long as is necessary, after which it will be securely destroyed by Invest Lincolnshire  or the specific requirements of the organisation who has shared the data with us.
 
 6.2. Retention periods can vary and will depend on various criteria including the purpose of processing, regulatory and legal requirements, and internal organisational need.
 
@@ -74,10 +74,6 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 -   [https://support.apple.com/kb/PH21411 (Safari); and](https://support.apple.com/en-gb/HT201265)
 -   [https://privacy.microsoft.com/en-us/windows-10-microsoft-edge-andprivacy (Edge).](https://support.microsoft.com/en-us/windows/microsoft-edge-browsing-data-and-privacy-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd)
 
-8.2. Blocking all cookies will have a negative impact upon the usability of many websites. If you block cookies, you will not be able to use all the features on our website.
-
-8.3. You can  [manage your cookie preferences here](https://www.greaterlincolnshirelep.co.uk/privacy-policy#)
-
 ### **9. HOW DO WE KEEP YOUR DATA SAFE?**
 
 9.1. We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online and have an information assurance framework in place with Lincolnshire County Council which to ensure that appropriate technical and organisational measures are in place to help keep your information secure and to reduce the risk of loss and theft.
@@ -86,7 +82,7 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 
 9.3. All staff are required to undertake regular data protection training and must comply with a variety of security policies designed to keep your information secure.
 
-9.4. Your personal data is not processed outside of the EU by Greater Lincolnshire LEP.
+9.4. Your personal data is not processed outside of the EU by Invest Lincolnshire.
 
 ### **10. YOUR RIGHTS**
 
@@ -108,7 +104,7 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 
 -   The Data Protection Officer at [dpo@investlincolnshire.co.uk](mailto:dpo@investlincolnshire.co.uk).
 
-11.2. Alternatively, you can contact Invest Lincolnshire LEP by writing to:
+11.2. Alternatively, you can contact Invest Lincolnshire by writing to:
 
 **The Data Protection Officer**
 
