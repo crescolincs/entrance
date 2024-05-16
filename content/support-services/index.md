@@ -42,7 +42,7 @@ supportservices:
     - service: Access to sector-specific support programmes
     - service: Access to local supply chains and business
     - service: Access to funding for business investment
-  servicesimage: logistics-4.jpg
+  servicesimage: aem-4.jpg
 sectorCTA:
   display: true
   bgcolor: dark
