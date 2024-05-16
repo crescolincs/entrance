@@ -57,7 +57,7 @@ This privacy policy sets out how Invest Lincolnshire uses and protects any infor
 
 6.2. Retention periods can vary and will depend on various criteria including the purpose of processing, regulatory and legal requirements, and internal organisational need.
 
-6.3. Retention periods are defined within Lincolnshire County Council's retention guidelines, which Invest Lincolnshire,  [which can be found here](https://www.lincolnshire.gov.uk/directory/59/retention-schedule).
+6.3. Retention periods are defined within Lincolnshire County Council's retention guidelines, [which can be found here](https://www.lincolnshire.gov.uk/directory/59/retention-schedule).
 
 ### **7. COOKIES THAT WE USE**
 
