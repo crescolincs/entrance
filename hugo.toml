@@ -1,5 +1,6 @@
 languageCode = 'en-uk'
 title = 'Invest in the UK, Invest in Lincolnshire'
+baseURL = 'https://investlincolnshire.co.uk/'
 
 [params]
   contactdomain = 'https://investlincolnshire.co.uk/'
