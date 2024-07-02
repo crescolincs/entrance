@@ -36,10 +36,12 @@ hgvdrivetimesmap:
   keyitems:
    - icon: 'red-icon.svg'
      title: 'Lincolnshire'
+     titleextra: ''
    - icon: 'pink-icon.svg'
      title: '3 hour HGV drive time'
+     titleextra: ''
    - icon: 'light-blue-icon.svg'
-     title: '3 hour HGV drive time'
+     title: '4.5 hour HGV drive time'
      titleextra: 1 Driver Shift
 
 multimodal:
