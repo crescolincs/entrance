@@ -29,7 +29,7 @@ connectivitymap:
      title: 'Lincolnshire'
 hgvdrivetimesmap:
   display: true
-  heading: "Map of Lincolnshire's connectivity"
+  heading: "Map of Lincolnshire's HGV Drive Times "
   drivetimesmap: 'uk-map.png'
   keyheading: HGV Drive Times
   keyheadingextra: From Lincoln
@@ -38,10 +38,10 @@ hgvdrivetimesmap:
      title: 'Lincolnshire'
      titleextra: ''
    - icon: 'pink-icon.svg'
-     title: '3 hour HGV drive time'
+     title: '3 hour HGV'
      titleextra: ''
    - icon: 'light-blue-icon.svg'
-     title: '4.5 hour HGV drive time'
+     title: '4.5 hour HGV'
      titleextra: 1 Driver Shift
 
 multimodal:
