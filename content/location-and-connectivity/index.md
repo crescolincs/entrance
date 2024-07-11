@@ -1,6 +1,6 @@
 ---
 title: "Lincolnshire's Location and Transport Connectivity"
-socialImage: 'lincs-uk-map.png'
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/lincs-uk-map.png'
 sector: location-connectivity
 seoDescription: >-
               Lincolnshire benefits from excellent transport connections - within the county, with the rest of the UK, and internationally.
@@ -13,7 +13,7 @@ hero:
          Lincolnshire benefits from excellent transport connections - within the county, with the rest of the UK, and internationally.
 
          For investing businesses, Lincolnshire’s strategic location in England’s East Midlands enables fast, efficient access to UK and international markets - for people and freight, and by road, rail, air and sea.
-  heroImg: 'map-uk.jpg'
+  heroImg: 'https://res.cloudinary.com/lincs/image/upload/map-uk.jpg'
 
 connectivitymap:
   display: true

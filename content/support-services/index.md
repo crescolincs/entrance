@@ -1,6 +1,6 @@
 ---
 title: 'Support for Businesses Investing in Lincolnshire'
-socialImage: 'support-services.jpg'
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/support-services.jpg'
 sector: support-services
 seoDescription: >-
               Invest Lincolnshire is the official inward investment agency for Lincolnshire. Working with our partner organisations, including local authorities, education providers and businesses, we provide dedicated support to ensure a ‘soft landing’ for companies investing in Lincolnshire.
@@ -12,7 +12,7 @@ hero:
   heading: "Support for Businesses Investing in Lincolnshire"
   blurb: >-
 
-  heroImg: 'blue-grad.png'
+  heroImg: 'https://res.cloudinary.com/lincs/image/upload/blue-grad.png'
 
 offerfeatures:
   display: true

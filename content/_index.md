@@ -1,6 +1,6 @@
 ---
 title: 'Invest Lincolnshire'
-socialImage: '5-shapes-with-grad.png'
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png'
 seoDescription: >-
               Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
 prefooterimage: entrance-pre-footer-graphic.png              
@@ -10,7 +10,7 @@ hero:
   heading: 'Invest in the UK. Invest in Lincolnshire.'
   blurb: >-
          Lincolnshire is the UK location of choice for investing businesses in high-growth industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
-  heroImg: '5-shapes-with-grad.png'
+  heroImg: 'https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png'
 
 entrancesupport:
   display: true

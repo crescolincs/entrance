@@ -1,6 +1,6 @@
 ---
 title: Living, working and enjoying a great lifestyle in Lincolnshire
-socialImage: living-working-header.png
+socialImage: https://res.cloudinary.com/lincs/image/upload/living-working-header.png
 sector: living-working
 seoDescription: Lincolnshire is a thriving region offering beautiful places to
   live; a superb quality of life; jobs in growing, future-focused industries;
@@ -17,7 +17,7 @@ hero:
 
 
     This is a place to work, learn and put down roots, and a well-connected base for commuters and entrepreneurs. It’s sustainable and affordable but also dynamic, and it might just be the place for you and your family to make home.
-  heroImg: living-working-header.png
+  heroImg: https://res.cloudinary.com/lincs/image/upload/living-working-header.png
 investmentopportunity:
   display: true
   heading: Lincolnshire. A Place to live, work & enjoy.
