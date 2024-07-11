@@ -18,14 +18,14 @@ hero:
 connectivitymap:
   display: true
   heading: "Map of Lincolnshire's connectivity"
-  connectivitymap: 'connect-map.png'
+  connectivitymap: 'https://res.cloudinary.com/lincs/image/upload/connect-map.png'
   keyheading: Key
   keyitems:
-   - icon: 'airport-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/airport-icon.svg'
      title: 'Airports'
-   - icon: 'port-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/port-icon.svg'
      title: 'Ports'
-   - icon: 'green-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/green-icon.svg'
      title: 'Lincolnshire'
 hgvdrivetimesmap:
   display: true
@@ -34,13 +34,13 @@ hgvdrivetimesmap:
   keyheading: HGV Drive Times
   keyheadingextra: From Lincoln
   keyitems:
-   - icon: 'red-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/red-icon.svg'
      title: 'Lincolnshire'
      titleextra: ''
-   - icon: 'pink-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/pink-icon.svg'
      title: '3 hour HGV'
      titleextra: ''
-   - icon: 'light-blue-icon.svg'
+   - icon: 'https://res.cloudinary.com/lincs/image/upload/light-blue-icon.svg'
      title: '4.5 hour HGV'
      titleextra: 1 Driver Shift
 
@@ -48,19 +48,19 @@ multimodal:
   display: true
   modality:
    - by: By road
-     icon: truck-icon.svg
+     icon: https://res.cloudinary.com/lincs/image/upload/truck-icon.svg
      text: >-
           From Lincolnshire, the major conurbations of the Midlands and North of England can be reached within 2 ½ hours, and London within 2 ¾ hours. More than 75% of the UK’s population can be reached within around 3 ½ hours’ drive time.
    - by: By rail
-     icon: train-icon.svg
+     icon: https://res.cloudinary.com/lincs/image/upload/train-icon.svg
      text: >-
           The UK’s major cities are easily accessible by rail from Lincolnshire. From Lincoln, London can be reached within 2 hours, and Manchester within 2 1/4 hours. From Grantham, in the south of the region, London can be reached in just over 1 hour.
    - by: By air
-     icon: plane-icon.svg
+     icon: https://res.cloudinary.com/lincs/image/upload/plane-icon.svg
      text: >-
           Within Lincolnshire, Humberside Airport offers frequent ‘hub-feeder’ services to Amsterdam Schiphol (AMS), with connections to 800 global destinations with KLM and SkyTeam partners. Airports accessible within 2 hours’ drive time include Birmingham, East Midlands, and Leeds-Bradford.
    - by: By sea
-     icon: ship-icon.svg
+     icon: https://res.cloudinary.com/lincs/image/upload/ship-icon.svg
      text: >-
           The ports of Immingham and Grimsby are the UK’s largest by tonnage, offering deep water facilities, frequent lo-lo (container) and ro-ro services to European ports, and deep-sea feeder services for global market access. The Port of Boston serves UK destinations for containers and bulk foods.                                       
 sectorCTA:
@@ -69,7 +69,7 @@ sectorCTA:
   headingcolor: light
   buttoncolor: '#e75a13'
   buttonhover: '#af0000'
-  image: brochure-form.png
+  image: https://res.cloudinary.com/lincs/image/upload/brochure-form.png
   heading: Get the data on Lincolnshire as a location for your business
   lead: >-
      Lincolnshire’s sector-focused Business Location Guides provide essential information and data for companies researching and evaluating Lincolnshire as a potential investment location. Insights include:                                       
@@ -91,6 +91,6 @@ sectorCTA:
        value: location-and-connectivity
      - field: cc
        value: dklongley@clarity-strategies   
-  footerimg: red-half-grad.png
+  footerimg: https://res.cloudinary.com/lincs/image/upload/red-half-grad.png
 layout: location-and-connectivity
 ---

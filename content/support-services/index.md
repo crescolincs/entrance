@@ -18,7 +18,7 @@ offerfeatures:
   display: true
   features:
    - heading: Support for investing businesses
-     image: support-services.jpg
+     image: https://res.cloudinary.com/lincs/image/upload/support-services.jpg
      lead: >-
            Invest Lincolnshire is the official inward investment agency for Lincolnshire. Working with our partner organisations, including local authorities, education providers and businesses, we provide dedicated support to ensure a ‘soft landing’ for companies investing in Lincolnshire.
      body: >-
@@ -29,7 +29,7 @@ supportservices:
   display: true
   bgcolor: '#fff'
   heading: Services for investing businesses
-  image: support-services.jpg
+  image: https://res.cloudinary.com/lincs/image/upload/support-services.jpg
   lead: >-
       Invest Lincolnshire is the official inward investment agency for Lincolnshire. Working with our partner organisations, including local authorities, education providers and businesses, we provide dedicated support to ensure a ‘soft landing’ for companies investing in Lincolnshire.
   ctatext: learn how we can support your business relocation or expansion project
@@ -42,14 +42,14 @@ supportservices:
     - service: Access to sector-specific support programmes
     - service: Access to local supply chains and business
     - service: Access to funding for business investment
-  servicesimage: aem-4.jpg
+  servicesimage: https://res.cloudinary.com/lincs/image/upload/aem-4.jpg
 sectorCTA:
   display: true
   bgcolor: dark
   headingcolor: light
   buttoncolor: '#e75a13'
   buttonhover: '#af0000'
-  image: brochure-form.png
+  image: https://res.cloudinary.com/lincs/image/upload/brochure-form.png
   heading: Get the data on Lincolnshire as a location for your business
   lead: >-
      Lincolnshire’s sector-focused Business Location Guides provide essential information and data for companies researching and evaluating Lincolnshire as a potential investment location. Insights include:                                       
@@ -71,7 +71,7 @@ sectorCTA:
        value: support-services
      - field: cc
        value: dklongley@clarity-strategies  
-  footerimg: red-half-grad.png
+  footerimg: https://res.cloudinary.com/lincs/image/upload/red-half-grad.png
 layout: support-services
 ---
 

@@ -23,34 +23,34 @@ investmentopportunity:
   heading: Lincolnshire. A Place to live, work & enjoy.
   subheading: ""
   offer:
-    - icon: lincs-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/lincs-icon.svg
       title: A thriving location
       description: Combining future-focused industries, educational excellence and a
         rewarding lifestyle.
-    - icon: env-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/env-icon.svg
       title: Beautiful environments
       description: "A diversity of delightful places and landscapes: city, towns,
         countryside and coast. "
-    - icon: cost-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/cost-icon.svg
       title: Cost advantages
       description: Significant housing cost and affordability advantages versus the
         averages for England.
-    - icon: growing-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/growing-icon.svg
       title: Growing Industries
       description: Employment and career opportunities in high-growth, future-focused
         industries.
-    - icon: knowledge-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/knowledge-icon.svg
       title: Educational Excellence
       description: In diverse institutions, across all levels - from primary to
         postgraduate.
-    - icon: benefits-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/benefits-icon.svg
       title: Lifestyle Benefits
       description: A wealth of rewarding leisure activities for residents of all ages.
-    - icon: connected-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/connected-icon.svg
       title: Well-Connected
       description: "Excellent transport connections: within Lincolnshire, nationally,
         and internationally."
-    - icon: sustainable-icon.svg
+    - icon: https://res.cloudinary.com/lincs/image/upload/sustainable-icon.svg
       title: Sustainable
       description: A commitment to sustainability - providing the best possible
         environment for residents.
@@ -58,7 +58,7 @@ offerfeatures:
   display: true
   features:
     - heading: An Introduction to Lincolnshire
-      image: place-to-live-1.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-1.jpg
       lead: Lincolnshire’s diverse, engaging landscape and thriving economy make it a
         wonderful place to live and work, and a region full of opportunity.
       body: >-
@@ -71,7 +71,7 @@ offerfeatures:
         - Lincolnshire’s economy is thriving, with growing, future-focused industries creating rewarding employment and career opportunities.
       ctatext: about Lincolnshire as a place to live, work and enjoy
     - heading: Living in Lincolnshire
-      image: place-to-live-2.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-2.jpg
       lead: "Lincolnshire combines history and beauty with modern industries and
         connectivity. The region’s diverse places to live offer one thing in
         common: the opportunity to enjoy a superb lifestyle."
@@ -86,7 +86,7 @@ offerfeatures:
         - Benefits for residents include more affordable homes and services; space for relaxation and enjoyment; and a pleasant climate with some of the UK’s lowest levels of rainfall.
       ctatext: about living in Lincolnshire
     - heading: Making a Home in Lincolnshire
-      image: place-to-live-3.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-3.jpg
       lead: Lincolnshire is committed to providing high-quality, healthy and
         sustainable housing and communities. Residents also benefit from
         significant housing cost and affordability advantages versus
@@ -103,7 +103,7 @@ offerfeatures:
         - Lincolnshire’s new neighbourhoods will be integrated with existing communities and embrace best practice in sustainability. Benefits for residents will include easier access to places of work and study, and the opportunity to live more active, healthier lives.
       ctatext: about making a home in Lincolnshire
     - heading: Working in Lincolnshire’s Future-focused Industries
-      image: place-to-live-4.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-4.jpg
       lead: Lincolnshire is leading the way in high-growth and technology-driven
         industries of the future, creating employment and career opportunities
         for the people who live here.
@@ -119,7 +119,7 @@ offerfeatures:
         - Lincolnshire’s key industries are creating opportunities for skilled, well-paid employment; career development; and entrepreneurs in a dynamic business environment.
       ctatext: about working in Lincolnshire’s future-focused industries
     - heading: Home and Flexible Working - from Lincolnshire
-      image: place-to-live-5.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-5.jpg
       lead: Improved digital connectivity, remote working technologies, and more
         flexible employers have transformed the way we work. Lincolnshire has
         always been a desirable place to live, but now, for more people than
@@ -134,7 +134,7 @@ offerfeatures:
         - When it is time to go to the office, Lincolnshire is well connected by road and rail. The business centres of the East Midlands and Yorkshire are easily accessible. From the south of the region, London can be reached by train in just over one hour.
       ctatext: about home and flexible working in Lincolnshire
     - heading: "Education: Learning in Lincolnshire"
-      image: place-to-live-6.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-6.jpg
       lead: Lincolnshire offers educational excellence at all levels, from primary to
         postgraduate, in state or independent institutions, with an academic or
         vocational focus.
@@ -149,7 +149,7 @@ offerfeatures:
         - Lincolnshire offers a diverse range of well-performing schools, including state schools, grammar schools (selective, non-fee paying) and independent (private) schools.
       ctatext: about education in Lincolnshire
     - heading: Enjoying a Great Lifestyle in Lincolnshire
-      image: place-to-live-7.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-7.jpg
       lead: Lincolnshire offers a wealth of rewarding leisure activities for residents
         of all ages, including historic attractions, family attractions,
         countryside, seaside and natural coast.
@@ -165,7 +165,7 @@ offerfeatures:
         - Lincolnshire’s pristine Natural Coast includes golden beaches, sand dunes and teeming natural habitats - ideal for walking, cycling, birdwatching and seal spotting.
       ctatext: about enjoying a great lifestyle in Lincolnshire
     - heading: Lincolnshire - A Well-connected Region
-      image: place-to-live-8.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-8.jpg
       lead: Lincolnshire’s residents benefit from excellent transport connections –
         locally, regionally, nationally and internationally, and via multiple
         modes of transport.
@@ -181,7 +181,7 @@ offerfeatures:
         - By air: airports accessible within 2 hours include East Midlands, Birmingham and Leeds-Bradford. Within Lincolnshire, Humberside Airport’s Amsterdam Schiphol hub-feeder service enables access to hundreds of global destinations. 
       ctatext: about Lincolnshire’s transport connections
     - heading: Lincolnshire’s Commitment to Sustainability
-      image: place-to-live-9.jpg
+      image: https://res.cloudinary.com/lincs/image/upload/place-to-live-9.jpg
       lead: Lincolnshire is committed to sustainability – to provide the best possible
         environment for residents, build thriving low carbon industries, and
         support the UK’s Net Zero goals.
@@ -210,7 +210,7 @@ sectorCTA:
   headingcolor: light
   buttoncolor: "#e75a13"
   buttonhover: "#af0000"
-  image: brochure-form.png
+  image: https://res.cloudinary.com/lincs/image/upload/brochure-form.png
   heading: Find Out More About Lincolnshire as a Place to Live, Work & Enjoy Life
   lead: "Lincolnshire’s brochure - A Place to Live, Work & Enjoy - provides
     essential information for individuals and families considering relocating to
@@ -234,7 +234,7 @@ sectorCTA:
       value: living-and-working
     - field: cc
       value: dklongley@clarity-strategies
-  footerimg: green-half-grad.png
+  footerimg: https://res.cloudinary.com/lincs/image/upload/green-half-grad.png
 layout: living-and-working
 
 ---
