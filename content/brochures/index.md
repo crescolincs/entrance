@@ -1,6 +1,6 @@
 ---
 title: 'Brochure Downloads'
-socialImage: '5-shapes-with-grad.png'
+socialImage: 'https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png'
 seoDescription: >-
               Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively.
 prefooterimage: entrance-pre-footer-graphic.png              
@@ -10,7 +10,7 @@ hero:
   heading: 'Brochure Downloads'
   blurb: >-
          Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively. Our Brochures contain details of our offers.
-  heroImg: '5-shapes-with-grad.png'
+  heroImg: 'https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png'
 brochurechoice:
   display: true
   brochures:
