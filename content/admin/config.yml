@@ -1,0 +1,319 @@
+backend:
+  name: github
+  repo: crescolincs/entrance
+  branch: main
+  base_url: https://smc.agrifood.pages.dev #url for Oauth app on Github Developer settings
+  auth_endpoint: /api/auth
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: lincs
+    api_key: 753698353151579
+    multiple: false
+    output_filename_only: false
+
+
+publish_mode: editorial_workflow
+logo_url: https://res.cloudinary.com/lincs/image/upload/v1716044699/invest-lincolnshire-logo.svg
+
+
+media_folder: "/img" # Folder where user uploaded files should go
+public_folder: "/img"
+
+collections: # A list of collections the CMS should be able to edit                  
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "content/_index.md"
+        label: "Entrance Home Page"
+        name: "home"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Social Image", name: "socialImage", widget: "image",allow_multiple: false, required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Sector", name: "sector", widget: "hidden", default: entrance}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "Image in the footer section", name: "prefooterimage", widget: "hidden", default: 'green-half-grad.png'}
+
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+
+          - {label: "Invester Support", name: "entrancesupport", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Investment Opportunity Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Subheading", name: "subheading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "The Support", name: "areas", widget: "list", fields: [
+                  {label: "Title", name: "title", widget: "string" },
+                  {label: "Icon", name: "icon", widget: "image", allow_multiple: false },
+                  {label: "Description", name: "description", widget: "text"}]},
+              {label: "Call to Action", name: "cta", widget: "object", fields: [    
+                  {label: "Title", name: "title", widget: "string" },
+                  {label: "Description", name: "blurb", widget: "text" },
+                  {label: "Link", name: "destination", widget: "text", default: 'https://investlincolnshire.co.uk/support-services'}]}
+            ]}      
+
+          - {label: "Growth Sectors", name: "entrancegrowthsectors", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Over Heading", name: "preheading", widget: "string"},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subheading", name: "lead", widget: "string" },
+              {label: "The Sectors", name: "sectors", widget: "list", fields: [
+                  {label: "Sector Name", name: "sectorname", widget: "string" },
+                  {label: "Image", name: "image", widget: "image", allow_multiple: false},                  
+                  {label: "Sector Description", name: "text", widget: "text", required: false },
+                  {label: "Link to Sector Page", name: "destination", widget: "string", required: true },
+                  {label: "Colour", name: "colour", widget: "hidden", default: 'clr-aem' }]}
+             ]}
+
+          - {label: "Other Sectors", name: "entranceothersectors", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide hide this Section.},
+              {label: "The Sectors", name: "sectors", widget: "list", fields: [
+                  {label: "Over Heading", name: "overheading", widget: "string", required: true },
+                  {label: "Image", name: "image", widget: "image", allow_multiple: false},
+                  {label: "Heading", name: "heading", widget: "string", required: true },
+                  {label: "Sector Description", name: "text", widget: "text", required: false },
+                  {label: "Link to Sector Page", name: "destination", widget: "string", required: true }]}
+             ]}
+                      
+          - {label: "Call To Action", name: "entrancelocationmap", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "text", widget: "text"},
+              {label: "Image", name: "image", widget: "image", allow_multiple: false},
+              {label: "Find Out More", name: "ctaheading", widget: "hidden", default: 'Find out more'},
+              {label: "Call To Action", name: "ctatext", widget: "string"},
+              {label: "Link", name: "destination", widget: "hidden",  default: 'https://investlincolnshire.co.uk/location-and-connectivity' }]}
+      - file: "content/support-services/index.md"
+        label: "Support Services Page"
+        name: "support"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "support-services"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Social Image", name: "socialImage", widget: "image",allow_multiple: false, required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Sector", name: "sector", widget: "hidden", default: entrance}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "Theme/Sector Dark Colour", name: "ctaarrowclrdark", widget: "hidden", default: '#80244e'} 
+          - {label: "Theme/Sector Light Colour", name: "ctaarrowclrlight", widget: "hidden", default: '#dd898e'}
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+          - {label: "Support", name: "offerfeatures", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Support Features", name: "features", widget: "list", fields: [                
+                  {label: "Heading", name: "heading", widget: "string" },
+                  {label: "Image", name: "image", widget: "image", allow_multiple: false },
+                  {label: "Introduction", name: "lead", widget: "text"},
+                  {label: "Description", name: "body", widget: "hidden"}]}
+            ]}
+          - {label: "Support Services", name: "supportservices", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Background Colour", name: "bgcolor", widget: "hidden", default: '#fff'},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "lead", widget: "text"},
+              {label: "Image", name: "image", widget: "image", allow_multiple: false, default: 'support-services.jpg' },
+              {label: "Image", name: "servicesimage", widget: "image", allow_multiple: false, default: 'aem-4.jpg' },
+              {label: "Services Available", name: "services", widget: "list", fields: [                
+                  {label: "Service", name: "service", widget: "string" }]}
+            ]}
+          - {label: "Call To Action Section", name: "sectorCTA", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Call To Action Image", name: "image", widget: "image", allow_multiple: false},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "lead", widget: "text" },
+              {label: "Background Colour", name: "bgcolor", widget: "hidden", default: 'dark' },
+              {label: "Heading Colour", name: "headingcolor", widget: "hidden", default: 'light' },
+              {label: "Button Colour", name: "buttoncolor", widget: "hidden", default: '#009e7f' },
+              {label: "Button Hover Colour", name: "hovercolor", widget: "hidden", default: '#aacf8b' },
+              {label: "Brochure Highlights", name: "brochurecontents", widget: "list", fields: [
+                  {label: "Highlight", name: "highlight", widget: "string" }]},
+              {label: "Contents text colour", name: "contentscolour", widget: "hidden", default: 'text-white' },
+              {label: "Form Handler Script", name: "formhandler", widget: "hidden", default: 'brochurerequest'},
+              {label: "Hidden Form Fields", name: "hiddenformfields", widget: "list", fields: [
+                  {label: "Field Name", name: "field", widget: "hidden" },
+                  {label: "Field Value", name: "value", widget: "hidden" }]},
+              {label: "Image in the footer section", name: "footerimg", widget: "hidden", default: 'red-half-grad.png'}]}         
+      - file: "content/location-and-connectivity/index.md"
+        label: "Location and Connectivity"
+        name: "location-and-connectivity"
+        fields:      
+          - {label: "Layout", name: "layout", widget: "hidden", default: "location-and-connectivity"}
+          - {label: "Title", name: "title", widget: "string", default: "Lincolnshire's Location and Transport Connectivity"}
+          - {label: "Social Image", name: "socialImage", widget: "image",allow_multiple: false, required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Sector", name: "sector", widget: "hidden", default: location-connectivity}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "Theme/Sector Dark Colour", name: "ctaarrowclrdark", widget: "hidden", default: '#80244e'}
+          - {label: "Theme/Sector Light Colour", name: "ctaarrowclrlight", widget: "hidden", default: '#dd898e'}
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+          - {label: "Connectivity Map", name: "connectivitymap", widget: "object", fields: [ 
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Heading", name: "heading", widget: "string", default: "Map of Lincolnshire's connectivity" },
+              {label: "Map Image", name: "connectivitymap", widget: "image", allow_multiple: false, default: connect-map.png, required: false},
+              {label: "Key Heading" , name: keyheading, widget: string, default: 'Key'},
+              {label: "Key Items", name: "keyitems", widget: "list", fields: [
+                  {label: "Key Icon", name: "icon", widget: "image" }, 
+                  {label: "Heading", name: "title", widget: "string" }             
+              ]}
+            ]}   
+          - {label: "HGV Drive Times Map", name: "hgvdrivetimesmap", widget: "object", fields: [ 
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Heading", name: "heading", widget: "string", default: "Map of Lincolnshire's HGV Drive Times" },
+              {label: "Map Image", name: "drivetimesmap", widget: "image", allow_multiple: false, default: uk-map.png, required: false},
+              {label: "Key Heading" , name: keyheading, widget: string, default: 'HGV Drive Times'},
+              {label: "Key Heading 2" , name: keyheadingextra, widget: string, default: 'From Lincoln'},
+              {label: "Key Items", name: "keyitems", widget: "list", fields: [
+                  {label: "Heading", name: "title", widget: "string" },
+                  {label: "Key Icon", name: "icon", widget: "image" },                   
+                  {label: "Heading 2", name: "titleextra", widget: "string" }            
+              ]}
+            ]} 
+          - {label: "Multimodal Capability", name: "multimodal", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Modality", name: "modality", widget: "list", fields: [ 
+                  {label: By, name: by, widget: string},
+                  {label: "Modality Icon", name: "icon", widget: "image", allow_multiple: false },
+                  {label: "Modality Description", name: "text", widget: "text" },
+                  ]}
+            ]}  
+          - {label: "Call To Action Section", name: "sectorCTA", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Call To Action Image", name: "image", widget: "image", allow_multiple: false},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "lead", widget: "text" },
+              {label: "Background Colour", name: "bgcolor", widget: "hidden", default: 'dark' },
+              {label: "Heading Colour", name: "headingcolor", widget: "hidden", default: 'light' },
+              {label: "Button Colour", name: "buttoncolor", widget: "hidden", default: '#009e7f' },
+              {label: "Button Hover Colour", name: "hovercolor", widget: "hidden", default: '#aacf8b' },
+              {label: "Brochure Highlights", name: "brochurecontents", widget: "list", fields: [
+                  {label: "Highlight", name: "highlight", widget: "string" }]},
+              {label: "Contents text colour", name: "contentscolour", widget: "hidden", default: 'text-white' },
+              {label: "Form Handler Script", name: "formhandler", widget: "hidden", default: 'brochurerequest'},
+              {label: "Hidden Form Fields", name: "hiddenformfields", widget: "list", fields: [
+                  {label: "Field Name", name: "field", widget: "hidden" },
+                  {label: "Field Value", name: "value", widget: "hidden" }]},
+              {label: "Image in the footer section", name: "footerimg", widget: "hidden", default: 'red-half-grad.png'}]}
+      - file: "content/living-and-working/index.md"
+        label: "Living and Working"
+        name: "living-and-working"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Social Image", name: "socialImage", widget: "image",allow_multiple: false, required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Sector", name: "sector", widget: "hidden", default: defence-security}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "CTA Arrow Dark", name: "ctaarrowclrdark", widget: "hidden", default: '#80244e'}
+          - {label: "CTA Arrow Light", name: "ctaarrowclrlight", widget: "hidden", default: '#dd898e'}
+
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+
+          - {label: "Investment Opportunity", name: "investmentopportunity", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Investment Opportunity Section.},
+              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Subheading", name: "subheading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "The Offer", name: "offer", widget: "list", fields: [
+                  {label: "Title", name: "title", widget: "string" },
+                  {label: "Icon", name: "icon", widget: "image", allow_multiple: false },                  
+                  {label: "Description", name: "description", widget: "text"}]}]}
+
+          - {label: "Market Opportunity", name: "marketopportunity", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Market Opportunity Section.},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subheading", name: "lead", widget: "string" },
+              {label: "The Benefits", name: "benefits", widget: "list", fields: [
+                  {label: "Benefit", name: "benefit", widget: "string" },
+                  {label: "Feature", name: "feature", widget: "string", required: false }]},
+              {label: "Statistics", name: "stats", widget: "list", fields: [
+                {label: "Name", name: "name", widget: "string", required: false},
+                {label: "Size", name: "size", widget: "string", required: false},
+                {label: "Measure", name: "measure", widget: "string", required: false},
+                {label: "When", name: "when", widget: "string", required: false},
+                {label: "Background Colour", name: "clrscheme", widget: "hidden", required: false},
+                {label: "Text Colour", name: "textcolor", widget: "hidden", required: false}]},
+              {label: "Stats Call To Action Text", name: "ctatext", widget: "string", required: false}]}
+          
+          - {label: "Features of the Offer", name: "offerfeatures", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Offer Features Section.},
+              {label: "Features", name: "features", widget: "list", fields: [
+                {label: "Feature", name: "heading", widget: "string"},
+                {label: "Image", name: "image", widget: "image", allow_multiple: false},
+                {label: "Intro", name: "lead", widget: "text"},
+                {label: "Description", name: "body", widget: "markdown"},
+                {label: "Call To Action", name: "ctatext", widget: "string"}]}]}
+          - {label: "Company Logos", name: "companylogos", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Company Logos Section.},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Subheading", name: "subheading", widget: "string" },
+              {label: "Scrollbar Colour", name: "scrollbarclr", widget: "hidden" },
+              {label: "The Companies", name: "companies", widget: "list", fields: [
+                  {label: "Company Name", name: "name", widget: "string", required: false },
+                  {label: "Logo", name: "logo", widget: "image", allow_multiple: false }]}]}          
+          - {label: "Support Section", name: "support", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Support Section.},
+              {label: "Heading", name: "heading", widget: "string", required: false},
+              {label: "Subheading", name: "lead", widget: "string", required: false },
+              {label: "Call to Action", name: "ctatext", widget: "string", required: false },
+              {label: "Support Section Image", name: "image", widget: "hidden" }]}
+          - {label: "Call To Action Section", name: "sectorCTA", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Call To Action Section.},
+              {label: "Call To Action Image", name: "image", widget: "image", allow_multiple: false},
+              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Description", name: "lead", widget: "text" },
+              {label: "Background Colour", name: "bgcolor", widget: "hidden", default: 'dark' },
+              {label: "Heading Colour", name: "headingcolor", widget: "hidden", default: 'light' },
+              {label: "Button Colour", name: "buttoncolor", widget: "hidden", default: '#009e7f' },
+              {label: "Button Hover Colour", name: "hovercolor", widget: "hidden", default: '#aacf8b' },
+              {label: "Brochure Highlights", name: "brochurecontents", widget: "list", fields: [
+                  {label: "Highlight", name: "highlight", widget: "string" }]},
+              {label: "Contents text colour", name: "contentscolour", widget: "hidden", default: 'text-white' },
+              {label: "Form Handler Script", name: "formhandler", widget: "hidden", default: 'brochurerequest'},
+              {label: "Hidden Form Fields", name: "hiddenformfields", widget: "list", fields: [
+                  {label: "Field Name", name: "field", widget: "hidden" },
+                  {label: "Field Value", name: "value", widget: "hidden" }]},
+              {label: "Image in the footer section", name: "footerimg", widget: "hidden", default: 'green-half-grad.png'}]}
+      - file: "content/contact/index.md"
+        label: "Contact Page"
+        name: "contact"
+        fields:
+          - {label: "Heading", name: "heading", widget: "string", default: Get in Touch}
+          - {label: "Message", name: "message", widget: "text"}
+          - {label: "Email Address", name: "email", widget: "text", default: 'info@investlincolnshire.co.uk'}
+          - {label: "Organisation", name: "organisation", widget: "text", default: 'Invest Lincolnshire'}
+          - {label: "Address Line 1", name: "address1", widget: "text", default: 'Lincolnshire County Council'}
+          - {label: "Address Line 2", name: "address2", widget: "text", default: 'Lancaster House'}
+          - {label: "Address Line 3", name: "address3", widget: "text", default: '36 Orchard Street'}
+          - {label: "Town/City", name: "town", widget: "text", default: 'Lincoln'}
+          - {label: "Postcode", name: "postcode", widget: "text", default: 'LN1 1XX'}
+          - {label: "Layout template", name: "layout", widget: "hidden", default: contact} 
+      - file: "content/brochures/index.md"
+        label: "Brochure Downloads Page"
+        name: "brochures"
+        fields:
+          - {label: "Title", name: "title", widget: "string", default: Brochure Downloads}  
+          - {label: "Social Image", name: "socialImage", widget: "image",allow_multiple: false, required: false, hint: An image that will be picked up by social media platforms}
+          - {label: "Description(SEO)", name: "seoDescription", widget: "text", required: false, hint: A description/synopsis of the content to help search engines undestand the value to your audience}
+          - {label: "Image in the footer section", name: "prefooterimage", widget: "hidden", default: 'entrance-pre-footer-graphic.png'}
+          - {label: "Hero", name: "hero", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Heading", name: "heading", widget: "string", default: 'Brochure Downloads' },
+              {label: "Intro text", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
+          - {label: "Available Brochures", name: "brochurechoice", widget: "object", fields: [
+              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
+              {label: "Brochure list", name: "brochures", widget: "list", fields: [
+                {label: "Brochure Title", name: "title", widget: "string"},
+                {label: "Cover Image", name: "image", widget: "image", allow_multiple: false},                
+                {label: "Brochure Sector Colour", name: "clr", widget: "select", options: ["bg-invest-blue", "bg-yellow", "bg-teal", "bg-red", "bg-green", "bg-pink", "bg-lime-green", "bg-sky-blue"]},
+                {label: "Brochure File Name (without .pdf)", name: "url", widget: "string"}
+              ]}
+            ]}              
+          - {label: "Layout template", name: "layout", widget: "hidden", default: 'brochure parade'}                 
