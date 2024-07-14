@@ -97,9 +97,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Theme/Sector Dark Colour", name: "ctaarrowclrdark", widget: "hidden", default: '#80244e'} 
           - {label: "Theme/Sector Light Colour", name: "ctaarrowclrlight", widget: "hidden", default: '#dd898e'}
           - {label: "Hero", name: "hero", widget: "object", fields: [
-              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Hero Section.},
-              {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
-              {label: "Strapline", name: "blurb", widget: "string", hint: A Strapline/Subheading for the Hero Section},
+              {label: "Display", name: "display",  widget: "boolean", default: true , required: false, hint: Set to false to hide the Hero Section.},
+              {label: "Heading", name: "heading", widget: "string", required: false, hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Strapline", name: "blurb", widget: "string", required: false, hint: A Strapline/Subheading for the Hero Section},
               {label: "Hero Image", name: "heroImg", widget: "image", allow_multiple: false}]}
           - {label: "Support", name: "offerfeatures", widget: "object", fields: [
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
@@ -132,7 +132,7 @@ collections: # A list of collections the CMS should be able to edit
                   {label: "Highlight", name: "highlight", widget: "string" }]},
               {label: "Contents text colour", name: "contentscolour", widget: "hidden", default: 'text-white' },
               {label: "Form Handler Script", name: "formhandler", widget: "hidden", default: 'brochurerequest'},
-              {label: "Hidden Form Fields", name: "hiddenformfields", widget: "list", fields: [
+              {label: "Hidden Form Fields (ADMIN ONLY)", name: "hiddenformfields", widget: "list", fields: [
                   {label: "Field Name", name: "field", widget: "hidden" },
                   {label: "Field Value", name: "value", widget: "hidden" }]},
               {label: "Image in the footer section", name: "footerimg", widget: "hidden", default: 'red-half-grad.png'}]}         
