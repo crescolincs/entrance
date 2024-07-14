@@ -30,7 +30,7 @@ connectivitymap:
 hgvdrivetimesmap:
   display: true
   heading: "Map of Lincolnshire's HGV Drive Times "
-  drivetimesmap: 'uk-map.png'
+  drivetimesmap: 'https://res.cloudinary.com/lincs/image/upload/uk-map.png'
   keyheading: HGV Drive Times
   keyheadingextra: From Lincoln
   keyitems:
