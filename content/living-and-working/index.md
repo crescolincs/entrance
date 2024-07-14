@@ -1,6 +1,6 @@
 ---
 title: Living, working and enjoying a great lifestyle in Lincolnshire
-socialImage: https://res.cloudinary.com/lincs/image/upload/living-working-header.png
+socialImage: https://res.cloudinary.com/lincs/image/upload/v1713523331/visitor-economy-5.jpg
 sector: living-working
 seoDescription: Lincolnshire is a thriving region offering beautiful places to
   live; a superb quality of life; jobs in growing, future-focused industries;
@@ -62,8 +62,8 @@ offerfeatures:
       lead: Lincolnshire’s diverse, engaging landscape and thriving economy make it a
         wonderful place to live and work, and a region full of opportunity.
       body: >-
-        - Lincolnshire extends from the Humber Estuary in the north to the Fens in
-        the south, and from the North Sea coast in the east to the fringes of
+        - Lincolnshire extends from the Humber Estuary in the north to the Fens
+        in the south, and from the North Sea coast in the east to the fringes of
         the East Midlands and South Yorkshire conurbations to the west.
 
         - Lincolnshire’s diverse landscape encompasses the cathedral city of Lincoln; historic market towns; the rolling hills of the Wolds and the atmospheric Fens flatlands; and a coastline characterised by both vast natural spaces and popular seaside resorts.
@@ -154,9 +154,9 @@ offerfeatures:
         of all ages, including historic attractions, family attractions,
         countryside, seaside and natural coast.
       body: >-
-        - Lincolnshire is a treasure trove of history, heritage and architecture,
-        including Lincoln Cathedral, stately homes, Roman ruins, and the
-        International Bomber Command Centre.
+        - Lincolnshire is a treasure trove of history, heritage and
+        architecture, including Lincoln Cathedral, stately homes, Roman ruins,
+        and the International Bomber Command Centre.
 
         - Lincolnshire’s countryside offers charming towns and villages; attractions including wildlife parks, zoos and aquariums; and healthy pursuits including walking and cycling. 
 
@@ -201,30 +201,10 @@ offerfeatures:
 
         \          "
       ctatext: about Lincolnshire’s commitment to sustainability
-articles:
-  display: false
-  heading: Articles for Living and Working in Lincolnshire
 sectorCTA:
-  display: true
-  bgcolor: dark
   headingcolor: light
-  buttoncolor: "#e75a13"
-  buttonhover: "#af0000"
-  image: https://res.cloudinary.com/lincs/image/upload/brochure-form.png
+  display: true
   heading: Find Out More About Lincolnshire as a Place to Live, Work & Enjoy Life
-  lead: "Lincolnshire’s brochure - A Place to Live, Work & Enjoy - provides
-    essential information for individuals and families considering relocating to
-    Lincolnshire:                                       "
-  brochurecontents:
-    - highlight: Introduction to Lincolnshire
-    - highlight: Places to live & district profiles
-    - highlight: Housing costs & affordability data
-    - highlight: Working in growing industry sectors
-    - highlight: Home & flexible working
-    - highlight: Schools, colleges and universities
-    - highlight: Lincolnshire’s lifestyle benefits
-    - highlight: Transport connectivity
-    - highlight: Sustainability commitments
   contentscolour: text-white
   formhandler: brochurerequest
   hiddenformfields:
@@ -235,6 +215,25 @@ sectorCTA:
     - field: cc
       value: dklongley@clarity-strategies
   footerimg: https://res.cloudinary.com/lincs/image/upload/green-half-grad.png
+  buttonhover: "#af0000"
+  buttoncolor: "#e75a13"
+  image: https://res.cloudinary.com/lincs/image/upload/brochure-form.png
+  lead: "Lincolnshire’s brochure - A Place to Live, Work & Enjoy - provides
+    essential information for individuals and families considering relocating to
+    Lincolnshire:                                       "
+  bgcolor: dark
+  brochurecontents:
+    - highlight: Introduction to Lincolnshire
+    - highlight: Places to live & district profiles
+    - highlight: Housing costs & affordability data
+    - highlight: Working in growing industry sectors
+    - highlight: Home & flexible working
+    - highlight: Schools, colleges and universities
+    - highlight: Lincolnshire’s lifestyle benefits
+    - highlight: Transport connectivity
+    - highlight: Sustainability commitments
 layout: living-and-working
-
+articles:
+  display: false
+  heading: Articles for Living and Working in Lincolnshire
 ---
