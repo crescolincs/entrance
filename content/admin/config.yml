@@ -226,8 +226,8 @@ collections: # A list of collections the CMS should be able to edit
                   {label: "Description", name: "description", widget: "text"}]}]}
 
           - {label: "Market Opportunity", name: "marketopportunity", widget: "object", fields: [
-              {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Market Opportunity Section.},
-              {label: "Heading", name: "heading", widget: "string"},
+              {label: "Display", name: "display",  widget: "boolean", default: true , required: false, hint: Set to false to hide the Market Opportunity Section.},
+              {label: "Heading", name: "heading", widget: "string", required: false},
               {label: "Subheading", name: "lead", widget: "string", required: false },
               {label: "The Benefits", name: "benefits", widget: "list", fields: [
                   {label: "Benefit", name: "benefit", widget: "string" },
