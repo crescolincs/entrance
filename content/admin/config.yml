@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
               {label: "Over Heading", name: "preheading", widget: "string"},
               {label: "Heading", name: "heading", widget: "string"},
-              {label: "Subheading (Optional)", name: "lead", widget: "string", required: false},
+              {label: "Subheading", name: "lead", widget: "string", required: false},
               {label: "The Sectors", name: "sectors", widget: "list", fields: [
                   {label: "Sector Name", name: "sectorname", widget: "string" },
                   {label: "Image", name: "image", widget: "image", allow_multiple: false},                  
@@ -219,7 +219,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Investment Opportunity", name: "investmentopportunity", widget: "object", fields: [
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Investment Opportunity Section.},
               {label: "Heading", name: "heading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
-              {label: "Subheading", name: "subheading", widget: "string", hint: A clear statement that indicates who this offer is for and how it will help them },
+              {label: "Subheading", name: "subheading", widget: "string", required: false , hint: A clear statement that indicates who this offer is for and how it will help them },
               {label: "The Offer", name: "offer", widget: "list", fields: [
                   {label: "Title", name: "title", widget: "string" },
                   {label: "Icon", name: "icon", widget: "image", allow_multiple: false },                  
@@ -228,7 +228,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Market Opportunity", name: "marketopportunity", widget: "object", fields: [
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Market Opportunity Section.},
               {label: "Heading", name: "heading", widget: "string"},
-              {label: "Subheading", name: "lead", widget: "string" },
+              {label: "Subheading", name: "lead", widget: "string", required: false },
               {label: "The Benefits", name: "benefits", widget: "list", fields: [
                   {label: "Benefit", name: "benefit", widget: "string" },
                   {label: "Feature", name: "feature", widget: "string", required: false }]},
@@ -252,7 +252,7 @@ collections: # A list of collections the CMS should be able to edit
           - {label: "Company Logos", name: "companylogos", widget: "object", fields: [
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide the Company Logos Section.},
               {label: "Heading", name: "heading", widget: "string"},
-              {label: "Subheading", name: "subheading", widget: "string" },
+              {label: "Subheading", name: "subheading", widget: "string", required: false },
               {label: "Scrollbar Colour", name: "scrollbarclr", widget: "hidden" },
               {label: "The Companies", name: "companies", widget: "list", fields: [
                   {label: "Company Name", name: "name", widget: "string", required: false },
