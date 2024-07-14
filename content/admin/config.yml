@@ -58,7 +58,7 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Display", name: "display",  widget: "boolean", default: true , hint: Set to false to hide this Section.},
               {label: "Over Heading", name: "preheading", widget: "string"},
               {label: "Heading", name: "heading", widget: "string"},
-              {label: "Subheading", name: "lead", widget: "string" },
+              {label: "Subheading", name: "lead", widget: "string", , required: false},
               {label: "The Sectors", name: "sectors", widget: "list", fields: [
                   {label: "Sector Name", name: "sectorname", widget: "string" },
                   {label: "Image", name: "image", widget: "image", allow_multiple: false},                  
