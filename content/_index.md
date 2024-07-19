@@ -2,10 +2,10 @@
 title: Invest Lincolnshire
 socialImage: https://res.cloudinary.com/lincs/image/upload/v1713178015/lincoln-cathedral.jpg
 sector: entrance
-seoDescription: Lincolnshire is the UK location of choice for investing
+seoDescription: "Lincolnshire is the UK location of choice for investing
   businesses in high-growth industry sectors. Invest Lincolnshire helps
   businesses to relocate, start-up or expand in Lincolnshire - more quickly,
-  efficiently, and cost-effectively.
+  efficiently, and cost-effectively. "
 prefooterimage: https://res.cloudinary.com/lincs/image/upload/entrance-pre-footer-graphic.png
 hero:
   display: true
@@ -91,6 +91,7 @@ entrancegrowthsectors:
         automation.
       colour: clr-irobotics
       destination: https://ai-and-robotics.investlincolnshire.co.uk/
+  lead: " "
 entranceothersectors:
   display: true
   sectors:
