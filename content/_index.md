@@ -1,6 +1,6 @@
 ---
 title: Invest Lincolnshire
-socialImage: https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png
+socialImage: https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.jpg
 sector: entrance
 seoDescription: Lincolnshire is the UK location of choice for investing
   businesses in high-growth industry sectors. Invest Lincolnshire helps
