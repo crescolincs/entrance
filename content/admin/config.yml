@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: crescolincs/entrance
-  branch: main
+  branch: jo-test
   base_url: https://smc.agrifood.pages.dev #url for Oauth app on Github Developer settings
   auth_endpoint: /api/auth
 media_library:
