@@ -90,7 +90,7 @@ sectorCTA:
      - field: page
        value: location-and-connectivity
      - field: cc
-       value: dklongley@clarity-strategies   
+       value: investment@lincolnshire.gov.uk   
   footerimg: https://res.cloudinary.com/lincs/image/upload/red-half-grad.png
 layout: location-and-connectivity
 ---
