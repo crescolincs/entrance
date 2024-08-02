@@ -233,7 +233,7 @@ sectorCTA:
     - field: page
       value: living-and-working
     - field: cc
-      value: dklongley@clarity-strategies
+      value: investment@lincolnshire.gov.uk
   footerimg: https://res.cloudinary.com/lincs/image/upload/green-half-grad.png
 layout: living-and-working
 

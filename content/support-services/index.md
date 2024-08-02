@@ -70,7 +70,7 @@ sectorCTA:
      - field: page
        value: support-services
      - field: cc
-       value: dklongley@clarity-strategies  
+       value: investment@lincolnshire.gov.uk  
   footerimg: https://res.cloudinary.com/lincs/image/upload/red-half-grad.png
 layout: support-services
 ---
