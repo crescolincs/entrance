@@ -9,7 +9,7 @@ hero:
   display: true
   heading: 'Brochure Downloads'
   blurb: >-
-         Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively. Our Brochures contain details of our offers.
+         Lincolnshire is the UK location of choice for companies in high-growth, future-focused industry sectors. Invest Lincolnshire helps businesses to relocate, start-up or expand in Lincolnshire - more quickly, efficiently, and cost-effectively. Our Brochures contain details of our offers. Click on any of the images below to open pdf brochure(s) in a new window.
   heroImg: 'https://res.cloudinary.com/lincs/image/upload/5-shapes-with-grad.png'
 brochurechoice:
   display: true
