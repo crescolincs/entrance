@@ -35,7 +35,7 @@ brochurechoice:
       clr: 'bg-invest-blue'      
       url: invest-lincs-visitor-economy
     - image: https://res.cloudinary.com/lincs/image/upload/live-work-brochure-cover.jpg
-      title: 'A place to live, work & enjoy'
+      title: 'A place to live, work and enjoy'
       clr: 'bg-green'      
       url: invest-lincs-live-work
     - image: https://res.cloudinary.com/lincs/image/upload/agrifood-brochure-cover.jpg
