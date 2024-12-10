@@ -53,6 +53,6 @@ brochurechoice:
     - image: https://res.cloudinary.com/lincs/image/upload/agrifood-seafood-brochure-cover.jpg
       title: 'Agrifood: Seafood Processing & Aquaculture'
       clr: 'bg-sky-blue'
-      url:  invest-lincs-seafood       
+      url: invest-lincs-seafood       
 layout: brochure-parade                                         
 ---
