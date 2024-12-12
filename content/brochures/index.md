@@ -37,6 +37,10 @@ brochurechoice:
       title: 'Visitor Economy'
       clr: 'bg-invest-blue'      
       url: invest-lincs-visitor-economy
+    - image: https://res.cloudinary.com/lincs/image/upload/v1728923593/Film-Location-Brochure-Cover.jpg
+      title: 'Film Location'
+      clr: 'bg-lime-green'
+      url: invest-lincs-film-location      
     - image: https://res.cloudinary.com/lincs/image/upload/live-work-brochure-cover.jpg
       title: 'A place to live, work and enjoy'
       clr: 'bg-green'      
