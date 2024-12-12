@@ -110,7 +110,7 @@ entranceothersectors:
       destination: https://investlincolnshire.co.uk/living-and-working
     - overheading: Film Production
       image: https://res.cloudinary.com/lincs/image/upload/Belvoir_Castle_Festival_of_the_Horse_8.jpg
-      heading: Film Locations
+      heading: Film Locations 
       text: Lincolnshire offers diverse locations, a proven track record and 
             dedicated support for film production companies.
       destination: https://film-location.investlincolnshire.co.uk/     
