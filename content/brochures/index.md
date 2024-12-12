@@ -24,7 +24,7 @@ brochurechoice:
     - image: https://res.cloudinary.com/lincs/image/upload/logistics-brochure-cover.jpg
       title: 'Logistics' 
       clr: 'bg-yellow'      
-      url: invest-lincs-logistics
+      url: invest-lincs-logistics 
     - image: https://res.cloudinary.com/lincs/image/upload/lce-brochure-cover.jpg
       title: 'Low carbon energy & industry'
       clr: 'bg-teal'      
